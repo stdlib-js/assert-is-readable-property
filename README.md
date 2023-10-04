@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@esm/index.mjs';
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.1.1-esm/index.mjs';
 ```
 
 #### isReadableProperty( value, property )
@@ -127,7 +127,7 @@ bool = isReadableProperty( obj, 'setter' );
 <body>
 <script type="module">
 
-import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@esm/index.mjs';
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.1.1-esm/index.mjs';
 
 var bool = isReadableProperty( [ 'a' ], 'length' );
 // returns true
