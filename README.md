@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@deno/mod.js';
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.1.1-deno/mod.js';
 ```
 
 #### isReadableProperty( value, property )
@@ -122,7 +122,7 @@ bool = isReadableProperty( obj, 'setter' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@deno/mod.js';
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.1.1-deno/mod.js';
 
 var bool = isReadableProperty( [ 'a' ], 'length' );
 // returns true
