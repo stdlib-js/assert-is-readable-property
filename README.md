@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-readable-property/tags). For example,
+
+```javascript
 import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.2.0-deno/mod.js';
 ```
 
@@ -122,7 +127,7 @@ bool = isReadableProperty( obj, 'setter' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.2.0-deno/mod.js';
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@deno/mod.js';
 
 var bool = isReadableProperty( [ 'a' ], 'length' );
 // returns true
