@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isReadableProperty = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-readable-property/tags). For example,
+
+```javascript
 isReadableProperty = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.2.2-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isReadableProperty = require( 'path/to/vendor/umd/assert-is-readable-propert
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -149,7 +154,7 @@ bool = isReadableProperty( obj, 'setter' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
