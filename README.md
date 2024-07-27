@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-readable-property/tags). For example,
+
+```javascript
 import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.2.2-esm/index.mjs';
 ```
 
@@ -127,7 +132,7 @@ bool = isReadableProperty( obj, 'setter' );
 <body>
 <script type="module">
 
-import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@v0.2.2-esm/index.mjs';
+import isReadableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-readable-property@esm/index.mjs';
 
 var bool = isReadableProperty( [ 'a' ], 'length' );
 // returns true
