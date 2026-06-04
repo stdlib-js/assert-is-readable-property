@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-06-04)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`9ad27d6`](https://github.com/stdlib-js/stdlib/commit/9ad27d68a433072554c8340fd5ea86266ab487fb) - **docs:** fix TSDoc errors in `assert` declarations [(#12454)](https://github.com/stdlib-js/stdlib/pull/12454) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - **fix:** resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963) _(by Nathanael Mbale, Athan Reines)_
 
 </details>
@@ -46,10 +47,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Nathanael Mbale
+-   Philipp Burckhardt
 
 </section>
 
